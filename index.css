@@ -1,0 +1,395 @@
+ /* body{
+    margin: 0px;
+    background-color: white;
+}
+*{
+    font-family: poppins;
+}
+.first
+{
+    height: 330px;
+    width: 100%;
+    background-color:rgb(25, 20, 20);
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+.top img
+{
+    height: 60px;
+    width: 60px;
+    margin-right: 660px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top link1 link2 Link3{
+    justify-content: center;
+    align-items: center;
+}
+.top h1
+{
+    color:white ;
+}
+.top .linkhead
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.top .link1 .link2 .link3{
+    margin-right: 60px;
+}
+.top a{
+    padding-right: 20px;
+    font-size: 34px;
+    text-decoration: none;
+}
+.top a:hover
+{
+    color: green;
+    cursor: pointer;
+}
+.mini h1{
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.linkhead a{
+    color: white;
+}
+.price
+{
+    margin-top:50px ;
+}
+.top1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    color: white;
+}
+button{
+    border-radius: 20px;
+    border: 10px;
+    padding: 10px;
+}
+.table{
+    margin-top: 100px;   
+    /* padding: 20px; */
+    
+/* } */
+.table i{
+  color:rgb(30, 215, 96);
+}
+.table .red
+{
+  color: red;
+}
+.table th{
+  font-weight: 300;
+}
+.table td{
+  font-weight:bold;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.boxes{
+  display: flex;
+}
+.min{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 350px;
+  width:48%;
+  margin-left: 20px;
+}
+.months
+{
+border: 1px solid black;
+margin-top: 15px;
+height: 350px;
+width: 48%;
+border-radius: 10px;
+margin-left: 20px;
+margin-top: 0px;
+}
+.boxe{
+  display: flex;
+}
+.max{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 400px;
+  width:48%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.monthes
+{
+border: 1px solid black;
+margin-top: 15px;
+height: 400px;
+width: 48%;
+border-radius: 10px;
+margin-left: 20px;
+margin-top: 10px;
+}
+.email input{
+  height: 25px;
+  width: 100%;
+  border-radius: 1px solid rgb(255,255,255,0,6);
+}
+.names{
+  display: flex;
+}
+.names input{
+  margin-top: 5px;
+  height: 25px;
+  width: 48%;
+  border-radius: 1px solid rgb(255,255,255,0,6);
+}
+.country select{
+  height: 25px;
+  width: 100%;
+  color: rgb(255,255,255,0,6);
+}
+.college select{
+  margin-top: 5px;
+  height: 30px;
+  width: 100%;
+  color: rgb(255,255,255,0,6);
+}
+.number input{
+  margin-top: 5px;
+  height: 30px;
+  width: 100%;
+  color: rgb(255,255,255,0,6);
+}
+.check{
+  margin-top: 10px;
+}
+/* Common styles for all devices */
+
+/* Styles for devices with a maximum width of 600 pixels (typically smartphones) */
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 12px;
+      text-wrap:balance;
+    }
+    .first {
+      padding: 20px;
+    }
+    .link1{
+      font-size: 10px;
+    }
+}
+
+/* Styles for devices with a minimum width of 601 pixels and a maximum width of 1024 pixels (typically tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Your styles for medium-sized screens go here */
+}
+
+/* Styles for devices with a minimum width of 1025 pixels and a maximum width of 1440 pixels (typically larger screens) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Your styles for large screens go here */
+}
+
+/* Styles for devices with a minimum width of 1441 pixels (extra-large screens) */
+@media only screen and (min-width: 1441px) {
+  /* Your styles for extra-large screens go here */
+}
+
+*/
+body{
+  margin: 0px;
+  background-color: white;
+}
+*{
+  font-family: poppins;
+}
+.first
+{
+  height: 330px;
+  width: 100%;
+  background-color:rgb(25, 20, 20);
+}
+.top{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+}
+.top img
+{
+  height: 60px;
+  width: 60px;
+  margin-right: 660px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top link1 link2 Link3{
+  justify-content: center;
+  align-items: center;
+}
+.top h1
+{
+  color:white ;
+}
+.top .linkhead
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+.top .link1 .link2 .link3{
+  margin-right: 60px;
+}
+.top a{
+  padding-right: 20px;
+  font-size: 34px;
+  text-decoration: none;
+}
+.top a:hover
+{
+  color: green;
+  cursor: pointer;
+}
+.mini h1{
+  font-weight: bolder;
+  margin-top: 50px;
+}
+.linkhead a{
+  color: white;
+}
+.price
+{
+  margin-top:50px ;
+}
+.top1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1
+{
+  color: white;
+}
+button{
+  border-radius: 20px;
+  border: 10px;
+  padding: 10px;
+}
+.table{
+  margin-top: 100px;   
+  /* padding: 20px; */
+  
+}
+.table i{
+  color:rgb(30, 215, 96);
+}
+.table .red
+{
+  color: red;
+}
+.table th{
+  font-weight: 300;
+}
+.table td{
+  font-weight:bold;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.boxes{
+  display: flex;
+}
+.min{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 350px;
+  width:48%;
+  margin-left: 20px;
+}
+.months
+{
+border: 1px solid black;
+margin-top: 15px;
+height: 350px;
+width: 48%;
+border-radius: 10px;
+margin-left: 20px;
+margin-top: 0px;
+}
+.boxe{
+  display: flex;
+}
+.max{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 400px;
+  width:48%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.monthes
+{
+border: 1px solid black;
+margin-top: 15px;
+height: 400px;
+width: 48%;
+border-radius: 10px;
+margin-left: 20px;
+margin-top: 10px;
+}
+.email input{
+  height: 25px;
+  width: 100%;
+  border-radius: 1px solid rgb(255,255,255,0,6);
+}
+.names{
+  display: flex;
+}
+.names input{
+  margin-top: 5px;
+  height: 25px;
+  width: 48%;
+  border-radius: 1px solid rgb(255,255,255,0,6);
+}
+.country select{
+  height: 25px;
+  width: 100%;
+  color: rgb(255,255,255,0,6);
+}
+.college select{
+  margin-top: 5px;
+  height: 30px;
+  width: 100%;
+  color: rgb(255,255,255,0,6);
+}
+.number input{
+  margin-top: 5px;
+  height: 30px;
+  width: 100%;
+  color: rgb(255,255,255,0,6);
+}
+.check{
+  margin-top: 10px;
+}
